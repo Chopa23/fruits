@@ -1,0 +1,26 @@
+.top-screen {
+  padding-top: 63px;
+}
+.nav-link {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 130%;
+  color: #575757;
+}
+.active {
+  color: #fb9300;
+}
+@media (max-width: 992px) {
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+  .nav-link {
+    border-radius: 0;
+    border-bottom: 1px dotted white;
+    background-color: #575757;
+    color: white;
+    text-align: center;
+  }
+}
