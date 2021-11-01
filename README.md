@@ -1,2 +1,0 @@
-# Kyrgyz-Fruits
-# Kurgyz-Fruits
