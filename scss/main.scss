@@ -13,6 +13,42 @@
   color: #fb9300;
 }
 .promo {
+  padding-top: 153px;
+
+  &-title {
+    padding: 16px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 130%;
+    color: #fb9333;
+    background-color: #fff0dc;
+  }
+  &-title span {
+    color: black;
+  }
+  &-subtitle {
+    padding-top: 78px;
+    padding-bottom: 112px;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 130%;
+    letter-spacing: -0.02em;
+  }
+  &-subtitle span {
+    color: #fb9333;
+  }
+  &-stat-count {
+    width: 85px;
+    height: 38px;
+    margin-right: 50px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 160%;
+    color: #575757;
+  }
+
   &-stat-count::after {
     content: "+";
   }
@@ -26,6 +62,20 @@
     font-weight: 600;
     font-size: 18px;
     line-height: 130%;
+
+    &::after {
+      position: absolute;
+      content: "";
+      top: -25px;
+      right: -16px;
+      transform: rotate(20deg);
+      width: 60px;
+      height: 60px;
+      background-image: url(/images/-bee.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+    }
   }
 }
 
