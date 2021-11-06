@@ -15,6 +15,14 @@
   color: #fb9300;
 }
 
+.header-container {
+  background-repeat: no-repeat;
+  background-position: right 5px, right 0;
+  background-image: url(/images/222.png), -webkit-linear-gradient(45deg, white 0%, white 39%, rgba(251, 147, 0, 0.21) 100%);
+  background-image: url(/images/222.png), -o-linear-gradient(45deg, white 0%, white 39%, rgba(251, 147, 0, 0.21) 100%);
+  background-image: url(/images/222.png), linear-gradient(45deg, white 0%, white 39%, rgba(251, 147, 0, 0.21) 100%);
+}
+
 .promo {
   padding-top: 153px;
 }
@@ -38,8 +46,8 @@
   padding-top: 78px;
   padding-bottom: 112px;
   font-weight: bold;
-  font-size: 56px;
-  line-height: 130%;
+  font-size: 46px;
+  line-height: 120%;
   letter-spacing: -0.02em;
 }
 
@@ -88,10 +96,6 @@
   background-position: center;
   -webkit-background-size: contain;
           background-size: contain;
-}
-
-.promo-stat-count {
-  margin-right: 0;
 }
 
 @media (max-width: 992px) {
