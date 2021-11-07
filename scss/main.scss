@@ -90,6 +90,8 @@
 
 .product {
   margin-top: 84px;
+  // width: 1177px;
+  // align-items: center;
 
   &-img {
     margin-bottom: 5px;
@@ -115,6 +117,133 @@
     color: #3a3636;
   }
 }
+
+.products-mid {
+  margin-top: 118px;
+
+  & h3 {
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #3a3636;
+  }
+  & h3 span {
+    color: #fb9333;
+  }
+
+  & p {
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 150%;
+    color: #3a3636;
+
+    & span {
+      color: #fb9333;
+    }
+  }
+}
+.product-bottom {
+  margin-top: 98px;
+
+  & h2 {
+    margin-bottom: 63px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 180%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #fb9333;
+  }
+}
+
+.subscribe {
+  margin-top: 132px;
+
+  &-inner {
+    padding-top: 68px;
+    padding-bottom: 76px;
+    text-align: center;
+    background-image: url(/images/back.png);
+    background-color: #eaddca;
+    background-repeat: no-repeat;
+    background-position: bottom -200px left 0px;
+    background-size: cover;
+    border-radius: 3em;
+  }
+  &-txt {
+    width: 69%;
+    margin: 0 auto;
+  }
+  &-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 180%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #fb9333;
+  }
+  &-cta {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #585858;
+  }
+  &-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    width: 554px;
+    margin: 0 auto;
+    color: #3a3636;
+  }
+
+  &-form {
+    margin-top: 79px;
+
+    & input {
+      width: 70%;
+      border: none;
+
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 140%;
+      letter-spacing: -0.02em;
+      color: #575757;
+    }
+
+    & button {
+      width: 30%;
+      background-color: #fb9333;
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 140%;
+      text-align: center;
+      letter-spacing: -0.02em;
+      color: #ffffff;
+    }
+  }
+  &-form-inner {
+    width: 90%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 10px 5px 10px 20px;
+    border-radius: 100px;
+    background-color: #ffffff;
+  }
+}
+
 @media (max-width: 992px) {
   .navbar-toggler:focus {
     box-shadow: none;
