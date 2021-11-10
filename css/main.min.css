@@ -318,6 +318,61 @@
           background-size: cover;
 }
 
+.about-features-origin2::before {
+  background-image: url(/images/2fea.png);
+}
+
+.about-features-origin3::before {
+  background-image: url(/images/3fea.png);
+}
+
+.about-features-origin4::before {
+  background-image: url(/images/4fea.png);
+}
+
+.about-features-origin5::before {
+  background-image: url(/images/5fea.png);
+}
+
+.main-footer {
+  margin-bottom: 30px;
+}
+
+.main-footer-adress {
+  width: 209px;
+  padding-top: 27px;
+  padding-bottom: 45px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  color: #575757;
+}
+
+.main-footer-adress span {
+  padding-left: 30px;
+  position: relative;
+}
+
+.main-footer-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  -webkit-font-feature-settings: "pnum" on, "lnum" on;
+          font-feature-settings: "pnum" on, "lnum" on;
+  color: #fb9333;
+}
+
+.main-footer-links li {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  text-decoration: none;
+}
+
 @media (max-width: 992px) {
   .navbar-toggler:focus {
     -webkit-box-shadow: none;
